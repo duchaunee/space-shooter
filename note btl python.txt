@@ -1,0 +1,10 @@
+explosion_sound:
+  crash -> play
+  enemy bullet -> play
+  player bullet -> play
+260
+
+//solve
+your score over game
+class PlayerBullet(pygame.sprite.Sprite): self.rect.y -= 5
+#change 5 value to speed up bullet (level enemy :V maybe)
